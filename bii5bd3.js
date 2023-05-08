@@ -6,7 +6,7 @@ window.onload = (event) =>{
 	if(biicore.effect.type == 'none') return false;
 	setTimeout(function() {
 		if(biicore.effect.type == 'heart') {
-			snowFall.snow(document.getElementsByTagName('body')[0], {image : SNOW_Picture, minSize: 10, maxSize:20, flakeCount:20, maxSpeed: 1, minSpeed: 1});
+			snowFall.snow(document.getElementsByTagName('body')[0], {image : SNOW_Picture, minSize: 15, maxSize:30, flakeCount:20, maxSpeed: 1, minSpeed: 1});
 		}else if(biicore.effect.type == 'snow') {
 			snowFall.snow(document.getElementsByTagName('body')[0], {round : true, shadow : true, flakeCount : 250, minSize: 1, maxSize:8});
 		}else if(biicore.effect.type == 'custom') {
